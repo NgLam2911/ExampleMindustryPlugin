@@ -10,7 +10,6 @@ import mindustry.gen.Player;
 import mindustry.gen.Unit;
 import mindustry.mod.Plugin;
 import mindustry.net.Administration;
-import mindustry.world.Tile;
 
 import java.util.Objects;
 
@@ -20,7 +19,6 @@ public class ExamplePlugin extends Plugin {
         Events.on(EventType.BlockBuildBeginEvent.class, event -> {
             Unit unit = event.unit;
             Team team = event.team;
-            Tile tile = event.tile;
             if (unit.isPlayer()){
                 Player player = unit.getPlayer();
                 Log.info("Thằng loz " + player.name() + " team " + team.name + " đang build kìa");
