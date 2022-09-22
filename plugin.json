@@ -1,0 +1,7 @@
+{
+  "name": "ExamplePlugin",
+  "author": "NgLam2911",
+  "main": "nglam2911.example.ExamplePlugin",
+  "description": "I haz no idea ...",
+  "version": "0.1-SNAPSHOT"
+}
